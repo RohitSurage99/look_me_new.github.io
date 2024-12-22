@@ -88,24 +88,24 @@ class ContactDesktop extends StatelessWidget {
                     ),
                   ],
                 ),
-                Container(color: Colors.white.withOpacity(0.2), height: 1),
-                Space.y(2.w)!,
-                Wrap(
-                    alignment: WrapAlignment.center,
-                    runSpacing: 50,
-                    children: contactUtils
-                        .asMap()
-                        .entries
-                        .map((e) => IconButton(
-                              icon: Image.network(
-                                e.value.icon,
-                                color: theme.textColor,
-                              ),
-                              onPressed: () => openURL(e.value.url),
-                              highlightColor: Colors.white54,
-                              iconSize: 21,
-                            ))
-                        .toList()),
+                // Container(color: Colors.white.withOpacity(0.2), height: 1),
+                // Space.y(2.w)!,
+                // Wrap(
+                //     alignment: WrapAlignment.center,
+                //     runSpacing: 50,
+                //     children: contactUtils
+                //         .asMap()
+                //         .entries
+                //         .map((e) => IconButton(
+                //               icon: Image.network(
+                //                 e.value.icon,
+                //                 color: theme.textColor,
+                //               ),
+                //               onPressed: () => openURL(e.value.url),
+                //               highlightColor: Colors.white54,
+                //               iconSize: 21,
+                //             ))
+                //         .toList()),
               ],
             ),
           ),
