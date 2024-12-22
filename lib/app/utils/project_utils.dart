@@ -15,6 +15,49 @@ class ProjectUtils {
 
 List<ProjectUtils> projectUtils = [
   ProjectUtils(
+    banners: 'assets/imgs/05.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'City Bazaar Online App',
+    description: 'The City Bazaar online shopping app, developed using Flutter, offers users a convenient platform for both online and offline shopping experiences.',
+    links: 'https://play.google.com/store/apps/details?id=com.citybazaronline&hl=en_IN&gl=US',
+  ),
+  ProjectUtils(
+    banners: 'assets/imgs/07.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'A3S 360 video stream App',
+    description: 'Immerse yourself in thrilling 360° videos from the comfort of your home! Explore exciting adventures, stunning landscapes, and extreme sports with interactive, panoramic videos. Whether you’re using a VR headset or tilting your phone, our app brings the action to life. Enjoy endless categories like travel, sports, and nature in a user-friendly interface.',
+    links: 'https://apps.apple.com/ca/app/a3s/id6504093109?uo=2',
+  ),
+  ProjectUtils(
+    banners: 'assets/imgs/08.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Adfortune App',
+    description: 'Implemented a system where users participate in contests and watch up to 7 ads weekly. Upon completion, users '
+        'receive a draw button for a chance to win cash prizes.',
+    links: '',
+  ),
+  ProjectUtils(
+    banners: 'assets/imgs/09.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'EZYPAN GATEWAY App',
+    description: 'EZYPAN APP provides services regarding PAN CARD & INCOME TAX Return Filing',
+    links: 'https://play.google.com/store/apps/details?id=com.ezypanindia.ezypangateway&hl=en',
+  ),
+  ProjectUtils(
+    banners: 'assets/imgs/09.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Enchant-xp App',
+    description: 'your ultimate travel companion! Whether you\'re an avid globetrotter, a frequent business traveler, or someone who simply loves to explore new places, Enchant Experiencee is here to revolutionize the way you plan, navigate, and experience your adventures.',
+    links: 'https://apps.apple.com/sb/app/enchant-xp/id6466249914',
+  ),
+  ProjectUtils(
+    banners: 'assets/imgs/06.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Codiotic Connect App',
+    description: 'we develop "Codiotic Connect App" this is our internal app for client.',
+    links: '',
+  ),
+  ProjectUtils(
     banners: 'assets/imgs/02.png',
     icons: 'assets/imgs/flutter.png',
     titles: 'Random Number On Dice And Counts',
@@ -42,22 +85,11 @@ List<ProjectUtils> projectUtils = [
     description: 'The Flutter ChatGPT Clone is a conversational AI application developed using the Flutter framework. Leveraging the power of OpenAIs GPT models, the clone enables users to engage in text-based conversations with an artificial intelligence agent. With a sleek and intuitive user interface built using Flutter widgets, the app provides a seamless experience for users to interact with the AI, whether it is for seeking information, generating text, or simply chatting.',
     links: 'https://github.com/RohitSurage99/chat_gpt_clone',
   ),
+
+
+
   ProjectUtils(
-    banners: 'assets/imgs/05.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'City Bazaar Online App',
-    description: 'The City Bazaar online shopping app, developed using Flutter, offers users a convenient platform for both online and offline shopping experiences.',
-     links: 'https://play.google.com/store/apps/details?id=com.citybazaronline&hl=en_IN&gl=US',
-  ),
-  ProjectUtils(
-    banners: 'assets/imgs/06.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'Codiotic Connect App',
-    description: 'we develop "Codiotic Connect App" this is our internal app for client.',
-    links: '',
-  ),
-  ProjectUtils(
-    banners: 'assets/imgs/07.png',
+    banners: 'assets/imgs/08.png',
     icons: 'assets/imgs/flutter.png',
     titles: 'To Be Continue For More...',
     description: '',
